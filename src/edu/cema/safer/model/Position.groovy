@@ -5,10 +5,18 @@ package edu.cema.safer.model
  * Valid values for x & y are between 0 and 1.
  */
 class Position {
+	
+	public Position(double x, double y){
+		this.x= x;
+		this.y= y;
+	}
+	
 	def x
 	def y
 	
 	def move(speed, heading) {
+		//println "moving ($x, $y) at $speed with $heading"
+		
 		def yInc= Math.sin(heading) * speed;
 		def xInc= Math.cos(heading) * speed;
 		x+= xInc;

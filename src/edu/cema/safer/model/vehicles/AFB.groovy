@@ -1,5 +1,7 @@
 package edu.cema.safer.model.vehicles
 
-class AFB {
+import edu.cema.safer.model.MobileUnit;
+
+class AFB extends MobileUnit {
 
 }

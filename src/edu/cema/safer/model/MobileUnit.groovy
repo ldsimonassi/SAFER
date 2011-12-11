@@ -1,5 +1,5 @@
 package edu.cema.safer.model
 
 class MobileUnit extends Unit {
-	int speed
+	def speed= 0.01
 }

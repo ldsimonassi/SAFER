@@ -1,5 +1,7 @@
 package edu.cema.safer.model.vehicles
 
-class Tank extends MobileElement implements Shooter {
+import edu.cema.safer.model.MobileUnit;
+
+class Tank extends MobileUnit {
 
 }
