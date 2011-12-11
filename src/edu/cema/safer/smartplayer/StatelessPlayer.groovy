@@ -6,7 +6,6 @@ class StatelessPlayer {
 	def player
 
 	public play(World w){
-
 		// TODO Generate View DataStructure.
 		/**
 		 * Recorrer todas las unidades.
