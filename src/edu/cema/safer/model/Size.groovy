@@ -9,4 +9,9 @@ class Size {
 	
 	def x
 	def y
+	
+	@Override
+	public String toString() {
+		return "($x, $y)"
+	}
 }
